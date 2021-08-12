@@ -1,4 +1,6 @@
-# moreThanANOVA(改自https://github.com/womeimingzi11/moreThanANOVA)
+# ANOVAshiny
+
+[改自moreThanANOVA,汉化版](https://github.com/womeimingzi11/moreThanANOVA)
 
 ## 为什么选择 ANOVA(Analysis of variance,方差分析)
 一旦你想比较不同处理之间的一些数据，你从大量论文、文章和论文中学到的是使用**ANOVA（方差分析）**，当然我相信绝大多数的人其实真的不知道什么是 ANOVA。
