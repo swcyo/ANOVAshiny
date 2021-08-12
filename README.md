@@ -1,0 +1,2 @@
+# anovashiny
+shiny for ANOVA
