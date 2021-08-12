@@ -1,5 +1,7 @@
-# moreThanANOVA(改自https://github.com/womeimingzi11/moreThanANOVA)
-
+# New ANOVA
+##  特别说明:本站为[moreThanANOVA](https://hanchen.shinyapps.io/moreThanANOVA/)的汉化版
+源码来自[womeimingzi11](https://github.com/womeimingzi11/moreThanANOVA)
+使用教程可参见[R Shiny: 使用 moreThanANOVA 进行「正确」的显著性检验](https://blog.washman.top/post/shiny-apps-%E4%BD%BF%E7%94%A8-morethananova-%E8%BF%9B%E8%A1%8C-%E6%AD%A3%E7%A1%AE-%E7%9A%84%E6%98%BE%E8%91%97%E6%80%A7%E6%A3%80%E9%AA%8C.zh-hans/)
 ## 为什么选择 ANOVA(Analysis of variance,方差分析)
 一旦你想比较不同处理之间的一些数据，你从大量论文、文章和论文中学到的是使用**ANOVA（方差分析）**，当然我相信绝大多数的人其实真的不知道什么是 ANOVA。
 *问题*：为什么选择ANOVA？以下可能是你想要的答案：
@@ -24,36 +26,5 @@
 此外，互换检验(permutation test)也被用来作为评估显著性水平的一种高级方法，特别是对于分布未知的数据。关于更多的信息，有一篇来自[R-Bloger](https://www.r-bloggers.com/what-is-a-permutation-test/)的文章，这里有[另一篇中文文章](https://www.r-bloggers.com/what-is-a-permutation-test/)有做介绍。
 
 
-##特征
-- [x] 数据视图 [Data View]
-- [x] 数据分布检测 [Data Distribution Detect]
-  - [x] 数据分布 [Data Distributions]
-  - [x] 自动确定方法 [Automatically determine methods]
-  - [x] 数据密度图 [Data density plot]
-- [x] 显著性比较 [Significant Comparisons]
-  - [x] 显著性表格 [Significant Table]
-  - [x] 平均值、中位数和显著水平 [Mean, Median and Sig-Level]
-  - [x] 事后检验图 [Post Hoc test plot]
-
-## 如何使用它？
-
-### 1. 简单方法
-[点击这里](https://hanchen.shinyapps.io/moreThanANOVA/)。moreThanANOVA的主机在[Shinyapps.io](https://Shinyapps.io)。
-
-### 2. 硬核方式
-为了确保你能控制一切，我们欢迎你[fork源代码](https://gitee.com/swcyo/moreThanANOVA/fork)到你自己的repo（请给我留个星）。 
-
-### 当然源代码其实在[这里](https://github.com/womeimingzi11/moreThanANOVA)
-
-然后你可以在RStudio中打开`moreThanANOVA.Rproj`文件，接着打开`app.R`文件，安装所有将被加载的包。
-
-最后，点击代码编辑器面板右上方的`run.app`，**rdaWithStep**将在本地运行。
-
-
-
 ## 隐私声明
-我们保证，一旦你离开Shiny应用程序，你的所有数据将不会被保留。没有代码，也不会有任何代码来记录你的cilentID，上传的文件或任何其他数据。
-
-## 联系方式
-欢迎到我的码云 [repo on GitHub](https://gitee.com/swcyo/moreThanANOVA)提问.
-我的邮箱 [mail](mailto://swcyo@126.com).
+我们保证，你的所有数据将不会被保留。也不会有任何代码来记录你上传的文件或任何其他数据。
