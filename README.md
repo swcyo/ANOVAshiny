@@ -27,7 +27,7 @@ https://swcyo.shinyapps.io/ANOVA/
 此外，互换检验(permutation test)也被用来作为评估显著性水平的一种高级方法，特别是对于分布未知的数据。关于更多的信息，有一篇来自[R-Bloger](https://www.r-bloggers.com/what-is-a-permutation-test/)的文章，这里有[另一篇中文文章](https://www.r-bloggers.com/what-is-a-permutation-test/)有做介绍。
 
 
-##特征
+## 特征
 - [x] 数据视图 [Data View]
 - [x] 数据分布检测 [Data Distribution Detect]
   - [x] 数据分布 [Data Distributions]
